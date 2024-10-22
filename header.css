@@ -17,3 +17,7 @@
     display: flex;
     align-items: center;
 }
+
+.conteiner_imagem{
+    padding: 1em;
+}
