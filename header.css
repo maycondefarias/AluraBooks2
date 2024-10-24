@@ -10,7 +10,8 @@
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteiner {
@@ -23,7 +24,9 @@
 }
 
 .lista_manu{
-    display: none;
+    display: nome;
 }
 
-.conteiner_botao:checked ~.lista_menu
+.conteiner_botao:checked ~ .lista_menu{
+    display: block;
+}
