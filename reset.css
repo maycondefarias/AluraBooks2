@@ -113,12 +113,12 @@ body {
 
 ol,
 ul {
-    list-style: none;
+    list-style: nome;
 }
 
 blockquote,
 q {
-    quotes: none;
+    quotes: nome;
 }
 
 blockquote:before,
@@ -126,7 +126,7 @@ blockquote:after,
 q:before,
 q:after {
     content: '';
-    content: none;
+    content: nome;
 }
 
 table {
